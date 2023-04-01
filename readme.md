@@ -13,7 +13,7 @@ ProMan是一个用Python编写，界面使用Pyside2的进程管理软件，能�
 ## 使用
 
 ```bash
-python process_manager
+python process_manager.py
 ```
 
 运行ProMan软件后，您会看到一个类似于任务管理器的界面，显示了当前系统内的所有进程信息。您可以通过点击表头来对进程进行排序，或者在搜索框中输入关键字来筛选进程。您还可以通过右键菜单或者工具栏按钮来结束选中的进程。
