@@ -2,6 +2,7 @@ import os
 
 import psutil
 import qdarkstyle
+from PySide2.QtGui import QIcon
 # from PySide2.QtGui import QIcon
 from PySide2.QtWidgets import QWidget, QListWidget, QAbstractItemView, QLineEdit, QPushButton, QVBoxLayout, \
     QApplication, QListWidgetItem
@@ -41,7 +42,7 @@ class ProcessManager(QWidget):
         layout.addWidget(self.kill_button)
 
         self.setLayout(layout)
-        # self.Icon = QIcon("./icon.ico")
+        self.Icon = QIcon("./icon.ico")
         self.setWindowTitle("进程管理")
         self.setWindowIcon(self.Icon)
         self.setStyleSheet(qdarkstyle.load_stylesheet(qt_api='pyside2'))
